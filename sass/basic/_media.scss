@@ -1,3 +1,9 @@
+@media(max-width:1550px) {
+    .container {
+        width: 1400px;
+    }
+   
+}
 @media(max-width: 1400px) {
     .container {
         width: 1200px;
@@ -37,6 +43,32 @@
                 font-size: 30px;
                 line-height: 40px;
             }
+        }
+    }
+    .example {
+        &__tech {
+            max-width: 769px;
+        }
+        &__title {
+            max-width: 400px;
+            font-size: 20px;
+        }
+        &__descr {
+            max-width: 769px;
+            font-size: 18px;
+        }
+        &__get {
+            max-width: 600px;
+            font-size: 30px;
+        }
+        &__plus {
+            font-size: 30px;
+        }
+        &__equipment {
+            font-size: 20px;
+        }
+        &__technologes {
+            font-size: 20px;
         }
     }
     .footer {
@@ -101,6 +133,33 @@
             }
         }
     }
+    .example {
+        &__tech {
+            max-width: 569px;
+        }
+        &__title {
+            max-width: 400px;
+            font-size: 20px;
+        }
+        &__descr {
+            max-width: 769px;
+            font-size: 18px;
+        }
+        &__get {
+            max-width: 600px;
+            font-size: 30px;
+        }
+        &__plus {
+            font-size: 20px;
+            line-height: 25px;
+        }
+        &__equipment {
+            font-size: 18px;
+        }
+        &__technologes {
+            font-size: 18px;
+        }
+    }
     .footer {
         &__logo {
             max-width: 165px;
@@ -144,6 +203,34 @@
             }
         }
     }
+    .example {
+        &__tech {
+            max-width: 420px;
+        }
+        &__title {
+            max-width: 400px;
+            font-size: 20px;
+        }
+        &__descr {
+            max-width: 769px;
+            font-size: 14px;
+            margin: 30px 0 0 45px;
+        }
+        &__get {
+            max-width: 600px;
+            font-size: 25px;
+        }
+        &__plus {
+            font-size: 16px;
+            line-height: 25px;
+        }
+        &__equipment {
+            font-size: 16px;
+        }
+        &__technologes {
+            font-size: 18px;
+        }
+    }
 }
 @media (max-width: 763px) {
     .container {
@@ -171,6 +258,50 @@
                 font-size: 16px;
                 line-height: 26px;
             }
+        }
+    }
+    .example {
+        &__wrapper {
+            flex-direction: column;
+            padding: 0;
+            
+        }
+        &__img {
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+        }
+        &__tech {
+            width: 100%;
+            margin: 0 auto;
+        }
+        &__title {
+            width: 100%;
+            font-size: 20px;
+            margin: 0 auto;
+        }
+        &__descr {
+            width: 100%;
+            font-size: 18px;
+            margin: 30px auto;
+        }
+        &__get {
+            width: 100%;
+            font-size: 25px;
+            margin: 0 auto;
+        }
+        &__plus {
+            font-size: 16px;
+            line-height: 25px;
+            margin: 0 auto;
+        }
+        &__equipment {
+            font-size: 16px;
+            margin: 0 auto;
+        }
+        &__technologes {
+            font-size: 18px;
+            margin: 0 auto;
         }
     }
 }
@@ -223,6 +354,49 @@
             }
         }
     }
+    .example {
+        &__wrapper {
+            flex-direction: column;
+            padding: 0 10px 0 10px;
+        }
+        &__img {
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+        }
+        &__tech {
+            width: 100%;
+            margin: 0 auto;
+        }
+        &__title {
+            width: 100%;
+            font-size: 20px;
+            margin: 0 auto;
+        }
+        &__descr {
+            width: 100%;
+            font-size: 18px;
+            margin: 30px auto;
+        }
+        &__get {
+            width: 100%;
+            font-size: 25px;
+            margin: 0 auto;
+        }
+        &__plus {
+            font-size: 16px;
+            line-height: 25px;
+            margin: 0 auto;
+        }
+        &__equipment {
+            font-size: 16px;
+            margin: 0 auto;
+        }
+        &__technologes {
+            font-size: 18px;
+            margin: 0 auto;
+        }
+    }
     .footer {
         &__logo {
             max-width: 120px;
@@ -255,6 +429,29 @@
         }
         &__info {
             border-radius: 15px 15px 25px 25px;
+        }
+    }
+    .example {     
+        &__title {
+            font-size: 12px;
+        }
+        &__descr {
+            font-size: 14px;
+            line-height: 20px;
+        }
+        &__get {
+            font-size: 18px;
+        }
+        &__plus {
+            font-size: 10px;
+        }
+        &__equipment {
+            font-size: 12px;
+            line-height: 15px;
+        }
+        &__technologes {
+            font-size: 12px;
+            line-height: 20px;
         }
     }
 }
