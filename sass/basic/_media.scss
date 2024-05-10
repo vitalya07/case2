@@ -134,6 +134,30 @@
             font-size: 35px;
         }
     }
+    .information {
+        &__header {
+            font-size: 24px;
+        }
+        &__section {
+            &-title {
+                font-size: 24px;
+            }
+            &-list {
+                font-size: 24px;
+            }
+        }
+        &__example {
+            &-header {
+                font-size: 24px;
+            }
+            &-list {
+                font-size: 24px;
+            }
+        }
+        &__degision {
+            font-size: 24px;
+        }
+    }
     .footer {
         &__logo {
             max-width: 245px;
@@ -267,6 +291,43 @@
             font-size: 35px;
         }
     }
+    .information {
+        &__box {
+            padding-top: 130px;
+        }
+        &__header {
+            font-size: 24px;
+        }
+        &__section {
+            &-title {
+                font-size: 23px;
+            }
+            &-list {
+                font-size: 23px;
+                &::before {
+                    width: 35px;
+                } 
+            }
+            &-img {
+                width: 450px;
+                height: 173px;
+            }
+        }
+        &__example {
+            &-header {
+                font-size: 23px;
+            }
+            &-list {
+                font-size: 23px;
+                &::before {
+                    width: 35px;
+                } 
+            }
+        }
+        &__degision {
+            font-size: 23px;
+        }
+    }
     .footer {
         &__logo {
             max-width: 165px;
@@ -389,6 +450,50 @@
         }
         &__item {
             font-size: 25px;
+        }
+    }
+    .information {
+        &__box {
+            padding-top: 90px;
+            border-radius: 50px;
+        }
+        &__header {
+            font-size: 14px;
+            line-height: 25px;
+        }
+        &__section {
+            &-title {
+                font-size: 14px;
+                line-height: 25px;
+            }
+            &-list {
+                font-size: 14px;
+                line-height: 25px;
+                &::before {
+                    width: 25px;
+                } 
+            }
+            &-img {
+                width: 340px;
+                height: 130px;
+            }
+        }
+        &__example {
+            &-header {
+                font-size: 14px;
+                line-height: 25px;
+            }
+            &-list {
+                font-size: 14px;
+                line-height: 25px;
+                &::before {
+                    width: 25px;
+                } 
+            }
+        }
+        &__degision {
+            font-size: 14px;
+            line-height: 25px;
         }
     }
 }
@@ -528,6 +633,50 @@
         }
         &__item {
             font-size: 18px;
+        }
+    }
+    .information {
+        &__box {
+            padding-top: 90px;
+            border-radius: 50px;
+        }
+        &__header {
+            font-size: 14px;
+            line-height: 25px;
+        }
+        &__section {
+            &-title {
+                font-size: 14px;
+                line-height: 25px;
+            }
+            &-list {
+                font-size: 10px;
+                line-height: 16px;
+                &::before {
+                    width: 25px;
+                } 
+            }
+            &-img {
+                width: 220px;
+                height: 110px;
+            }
+        }
+        &__example {
+            &-header {
+                font-size: 14px;
+                line-height: 25px;
+            }
+            &-list {
+                font-size: 14px;
+                line-height: 25px;
+                &::before {
+                    width: 25px;
+                } 
+            }
+        }
+        &__degision {
+            font-size: 14px;
+            line-height: 25px;
         }
     }
 }
@@ -705,6 +854,58 @@
             }
         }
     }
+    .information {
+        &__box {
+            padding-top: 70px;
+            border-radius: 30px;
+        }
+        &__header {
+            font-size: 12px;
+            line-height: 25px;
+        }
+        &__section {
+            &-title {
+                font-size: 10px;
+                line-height: 20px;
+            }
+            &-wrapper {
+                flex-direction: column;
+            }
+            &-lists {
+                margin-left: 20px;
+                order: 2;
+            }
+            &-list {
+                font-size: 10px;
+                line-height: 16px;
+                &::before {
+                    width: 15px;
+                } 
+            }
+            &-img {
+                order: 1;
+                width: 220px;
+                height: 110px;
+            }
+        }
+        &__example {
+            &-header {
+                font-size: 12px;
+                line-height: 20px;
+            }
+            &-list {
+                font-size: 10px;
+                line-height: 16px;
+                &::before {
+                    width: 15px;
+                }
+            }
+        }
+        &__degision {
+            font-size: 12px;
+            line-height: 20px;
+        }
+    }
 }
 @media (max-width: 360px) {
     .container {width: 320px;}
@@ -782,6 +983,62 @@
         }
         &__item {
             font-size: 10px;
+        }
+    }
+    .information {
+        &__box {
+            padding: 30px 10px 20px 10px;
+            border-radius: 30px;
+        }
+        &__header {
+            font-size: 12px;
+            line-height: 25px;
+        }
+        &__section {
+            &-title {
+                font-size: 10px;
+                line-height: 20px;
+            }
+            &-wrapper {
+                flex-direction: column;
+            }
+            &-lists {
+                margin-left: 20px;
+                order: 2;
+            }
+            &-list {
+                font-size: 10px;
+                line-height: 16px;
+                &::before {
+                    width: 15px;
+                } 
+            }
+            &-img {
+                order: 1;
+                width: 220px;
+                height: 110px;
+            }
+        }
+        &__example {
+        
+            &-header {
+                font-size: 12px;
+                line-height: 20px;
+            }
+            &-lists {
+                margin-left: 96px;
+            }
+            &-list {
+                font-size: 10px;
+                line-height: 16px;
+                &::before {
+                    width: 15px;
+                }
+            }
+        }
+        &__degision {
+            font-size: 12px;
+            line-height: 20px;
         }
     }
 }
