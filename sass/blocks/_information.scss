@@ -1,0 +1,117 @@
+.information {
+    &__box {
+        background: linear-gradient(179.16deg, rgba(233, 232, 232, 0.8) -41.43%, rgba(18, 18, 18, 0.8) 32.12%);
+        border-radius: 80px;
+        padding: 158px 44px 23px 95px;
+    }
+    &__header {
+        max-width: 1176px;
+        font-family: Inter;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 38.73px;
+        text-align: left;
+        margin: 0 auto;
+        color: #fff;
+    }
+    &__section {
+        margin-top: 18px;
+        &-title {
+            max-width: 1438px;
+            color: #fff;
+            border-bottom: 2px  solid #EF7B00;
+            font-family: Inter;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 38.73px;
+            text-align: left;
+            margin: 0 auto;
+        }
+        &-wrapper {
+            margin-top: 11px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &-lists {
+            max-width: 530px;
+            list-style-type: none;
+            margin-left: 50px;
+        }
+        &-list {
+            font-family: Inter;
+            font-size: 32px;
+            font-weight: 600;
+            line-height: 38.73px;
+            letter-spacing: 0.02em;
+            text-align: left;
+            color: #EF7B00;
+            position: relative;
+            &::before {
+                content: "";
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                left: -45px;
+                width: 40px;
+                height: 2px;
+                background-color: #EF7B00;
+            }
+        }
+        &-img {
+            width: 646px;
+            height: 248px;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+    &__example {
+        &-header {
+           max-width: 1205px;
+           font-family: Inter;
+           font-size: 32px;
+           font-weight: 700;
+           line-height: 38.73px;
+           letter-spacing: 0.02em;
+           text-align: left;
+            color: #fff;
+        }
+        &-lists {
+            list-style-type: none;
+            margin: 20px 0 0 50px;
+        }
+        &-list {
+            font-family: Inter;
+            font-size: 32px;
+            font-weight: 600;
+            line-height: 38.73px;
+            letter-spacing: 0.02em;
+            text-align: left;
+            color: #EF7B00;
+            position: relative;
+            &::before {
+                content: "";
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                left: -45px;
+                width: 40px;
+                height: 2px;
+                background-color: #EF7B00;
+            }
+        }
+    }
+    &__degision {
+        font-family: Inter;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 38.73px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #fff;
+        margin-top: 20px;
+    }
+}
