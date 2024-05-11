@@ -34,6 +34,23 @@
             font-size: 35px;
         }
     }
+    .occupation {
+        &__title {
+            font-size: 50px;
+        }
+        &__item {
+            &-img {
+                max-width: 480px;
+                height: auto;
+            }
+        }
+        &__lists {
+            max-width: 820px;
+        }
+        &__list {
+            font-size: 25px;
+        }
+    }
 }
 @media(max-width: 1400px) {
     .container {
@@ -156,6 +173,28 @@
         }
         &__degision {
             font-size: 24px;
+        }
+    }
+    .occupation {
+        &__title {
+            font-size: 45px;
+        }
+        &__item {
+            &-img {
+                max-width: 360px;
+                height: auto;
+            }
+        }
+        &__lists {
+            max-width: 740px;
+        }
+        &__list {
+            font-size: 20px;
+            line-height: 28px;
+            margin-top: 10px;
+            &:nth-child(1) {
+                margin-top: 0;
+            }
         }
     }
     .footer {
@@ -328,6 +367,28 @@
             font-size: 23px;
         }
     }
+    .occupation {
+        &__title {
+            font-size: 40px;
+        }
+        &__item {
+            &-img {
+                max-width: 360px;
+                height: auto;
+            }
+        }
+        &__lists {
+            max-width: 540px;
+        }
+        &__list {
+            font-size: 16px;
+            line-height: 26px;
+            margin-top: 10px;
+            &:nth-child(1) {
+                margin-top: 0;
+            }
+        }
+    }
     .footer {
         &__logo {
             max-width: 165px;
@@ -494,6 +555,29 @@
         &__degision {
             font-size: 14px;
             line-height: 25px;
+        }
+    }
+    .occupation {
+        &__title {
+            font-size: 30px;
+        }
+        &__item {
+            &-img {
+                max-width: 250px;
+                height: auto;
+            }
+        }
+        &__lists {
+            margin-top: 40px;
+            max-width: 430px;
+        }
+        &__list {
+            font-size: 14px;
+            line-height: 23px;
+            margin-top: 7px;
+            &:nth-child(1) {
+                margin-top: 0;
+            }
         }
     }
 }
@@ -677,6 +761,38 @@
         &__degision {
             font-size: 14px;
             line-height: 25px;
+        }
+    }
+    .occupation {
+        &__title {
+            font-size: 30px;
+        }
+        &__trait {
+            max-width: 400px;
+        }
+        &__box {
+            padding: 0 10px 0 10px;
+        }
+        &__item {
+            flex-direction: column;
+            justify-content: center;
+            align-items:center;
+            &-img {
+                max-width: 100%;
+                margin: 0 auto;
+            }
+        }
+        &__lists {
+           width: 100%;
+           margin: 20px auto 0 auto;
+        }
+        &__list {
+            font-size: 14px;
+            line-height: 23px;
+            margin-top: 7px;
+            &:nth-child(1) {
+                margin-top: 0;
+            }
         }
     }
 }
@@ -904,6 +1020,42 @@
         &__degision {
             font-size: 12px;
             line-height: 20px;
+        }
+    }
+    .occupation {
+        &__title {
+            font-size: 20px;
+        }
+        &__trait {
+            max-width: 300px;
+        }
+        &__box {
+            padding: 0 10px 0 10px;
+        }
+        &__item {
+            flex-direction: column;
+            justify-content: center;
+            align-items:center;
+            &-img {
+                max-width: 100%;
+                margin: 0 auto;
+            }
+        }
+        &__lists {
+           width: 100%;
+           margin: 10px auto 0 10px;
+        }
+        &__list {
+            font-size: 12px;
+            line-height: 18px;
+            margin-top: 7px;
+            &::before {
+                width: 10px;
+                height: 10px;
+            }
+            &:nth-child(1) {
+                margin-top: 0;
+            }
         }
     }
 }
