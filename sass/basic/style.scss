@@ -7,7 +7,7 @@ body {
     box-sizing: border-box;
     font-family: "Verdana, Geneva, Tahoma, sans-serif";
 }
-p, h1, h2, h3, h4, h5, h6, span {
+p, h1, h2, h3, h4, h5, h6, span, ul,li {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -26,4 +26,7 @@ p, h1, h2, h3, h4, h5, h6, span {
 @import "../blocks/los";
 @import "../blocks/information";
 @import "../blocks/occupation";
+@import "../blocks/slogan";
+@import "../blocks/footer";
+@import "../blocks/arow";
 @import "media";

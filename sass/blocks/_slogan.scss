@@ -1,0 +1,80 @@
+.slogan {
+    padding: 32px 0 53px 0;
+    &__header {
+        font-family: Inter;
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 43.57px;
+        text-align: left;
+        color:#000;
+        margin: 0 auto;
+        max-width: 979px;
+    }
+    &__subheader {
+        font-family: Inter;
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 43.57px;
+        text-align: left;
+        color: #000;
+        margin-top: 20px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 32px;
+    }
+    &__consultation {
+        width: 627px;
+        height: 65px;
+        border-radius: 14px;
+        border: 1px solid #fff;
+        opacity: 0px;
+        background: linear-gradient(152.68deg, #EF7B00 21.74%, #F0E9E9 132.29%);
+        box-shadow: 8px 8px 4px 0px #00000066;        
+        font-family: Inter;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 33.89px;
+        text-align: center;
+        color: #000;
+        cursor: pointer;
+        transition: .7s;
+        
+        &:hover {
+            box-shadow: 3px 3px 5px 2px #ff6601
+        }
+        &:focus {
+            outline: none;
+        }
+    }
+    &__video {
+        width: 429px;
+        height: 65px;
+        border-radius: 14px;
+        border: 1px solid #fff;
+        background: linear-gradient(152.68deg, #EF7B00 21.74%, #F0E9E9 132.29%);
+        box-shadow: 8px 8px 4px 0px #00000066;
+        transition: .7s;
+        a {
+            color: #000;
+            text-decoration: none;
+        }
+        &:hover {
+            box-shadow: 3px 3px 5px 2px #ff6601
+        }
+        &:focus {
+            outline: none;
+        }
+    }
+    &__link {
+        font-family: Inter;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 38.73px;
+        text-align: center;
+        color: #000;
+       
+    }
+}
