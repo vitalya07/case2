@@ -11,6 +11,23 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 <body>
+    <div class="modal">
+        <div class="modal__wrapper">
+            <div class="modal__box">
+                <div class="modal__close"></div>
+                <form action="#" class="modal__form">  
+                    <h3 class="modal__title">Оставьте заявку</h3>              
+                    <input type="name" name="name" required placeholder="Ваше имя" class="modal__input">
+                    <input type="tel" name="phone" required placeholder="Ваше телефон" class="modal__input" id="phone">
+                    <input type="email" name="email" required placeholder="Ваш Email" class="modal__input">
+                    <button class="modal__btn">Отправить данные</button>
+                </form>
+            </div>     
+            <div class="modal__well">
+                Ваша заявка успешно отправлена
+            </div> 
+        </div>           
+    </div>
     <header class="header">
         <div class="container">
             <div class="header__wrapper">
@@ -247,7 +264,7 @@
         </section>
         <div class="arrow">
             <a href="#"><img src="icons/arrow.svg" alt="arrow"></a> 
-         </div>
+        </div>
     </main>
     <footer class="footer">
         <div class="container">
@@ -271,5 +288,9 @@
             </div>            
         </div>
     </footer>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="../jquery.validate.min.js"></script>
+    <script src="../jquery.maskedinput.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
